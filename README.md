@@ -116,8 +116,6 @@ flask run
 `````
 
 # Further improvements 
-- for the code to be able to expand even further to help any business, and not only start ups
-
 For our next steps, we thought about two main ideas which could be implemented in the long run. 
 
 The first one includes Dataset improvements, such as:
