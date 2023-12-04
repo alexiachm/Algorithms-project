@@ -129,7 +129,8 @@ And lastly, for our tracker to hold large amounts of data from big businesses, n
 Also If our app was connected to the user’s dataset in real time we would provide valuable insights on the data such us:
 - Notifications whenever inventory is below 0, or even before that so user’s don’t run out of inventory
 - Updates on best performing products based on revenue
-- Recommendations on which products to maintain for next operating months etc
+- Recommendations on which products to maintain for next operating months etc.
+  
 For this we would need an algorithm which is able to understand the data, read, provided and make recommendations. 
 
 # Resources Used
