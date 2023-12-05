@@ -113,8 +113,16 @@ source ./Algorithms-project/bin/activate
 install modules:
 `````
 pip install -r requirements.txt
+graphics.py
+pandas.py
+pip install pandas
+pip install matplotlib
+pip install graphics.py
+pip install openpyxl
 `````
-In case the pip install doesn't work, please install the libraries manually with the pop install pandas.
+In case the pip install doesn't work, please install the libraries manually with the pip install pandas.
+tkinter and csv are libraries included in Python.
+
 
 libraries:
 `````
@@ -124,8 +132,9 @@ import matplotlib.pyplot as plt
 from tkinter import Tk, filedialog
 from matplotlib.table import Table
 import csv
+import openpyxl
 `````
-##usage 
+usage 
 `````
 cd Algorithms-project
 `````
