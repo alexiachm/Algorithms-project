@@ -112,7 +112,18 @@ source ./Algorithms-project/bin/activate
 
 install modules:
 `````
-pip install -r requirements.txt 
+pip install -r requirements.txt
+`````
+In case the pip install doesn't work, please install the libraries manually with the pop install pandas.
+
+libraries:
+`````
+from graphics import *
+import pandas as pd
+import matplotlib.pyplot as plt
+from tkinter import Tk, filedialog
+from matplotlib.table import Table
+import csv
 `````
 ##usage 
 `````
