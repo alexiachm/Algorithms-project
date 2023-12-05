@@ -45,13 +45,13 @@ We came up with StartupPal, an app that helps people with start-up businesses, t
 
 ## User journey 
 The app is first accessed by a login in or sign up page for the user to save their data accordingly. After, a dashboard is displayed with a main statistics page of inventory levels, overall revenue and inventory. The dashboard displays whether the data is increasing or decreasing (an overview of all the data). From this dashboard, there are three tabs that can be accessed: Inventory, Revenues, and Expenses. 
-Home Screen:(Explanation)
+###Home Screen:(Explanation)
 <img src="https://github.com/alexiachm/Algorithms-project/blob/main/HomeScreen.png" alt="HomeScreen" title= "HomeScreen">
 
-User Interface:(Explanation)
+###User Interface:(Explanation)
 <img src="https://github.com/alexiachm/Algorithms-project/blob/main/User%20Interface.png" alt="UserInterface" title= "UserInterface">
 
-Log In and Sign Up: (Explanation)
+###Log In and Sign Up: (Explanation)
 <img src="https://github.com/alexiachm/Algorithms-project/blob/main/Log%20in%20Page.png" alt="LogIn" title= "LogIn">
 <img src="https://github.com/alexiachm/Algorithms-project/blob/main/Sign%20in%20Page.png" alt="SignUp" title= "SignUp">
 
