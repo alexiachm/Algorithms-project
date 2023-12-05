@@ -46,15 +46,16 @@ We came up with StartupPal, an app that helps people with start-up businesses, t
 ## User journey 
 The app is first accessed by a login in or sign up page for the user to save their data accordingly. After, a dashboard is displayed with a main statistics page of inventory levels, overall revenue and inventory. The dashboard displays whether the data is increasing or decreasing (an overview of all the data). From this dashboard, there are three tabs that can be accessed: Inventory, Revenues, and Expenses. 
 
-Home Screen:(Explanation)
+Home Screen: When entering the app, we can see the name of our application and a big START button that we will need to click in order to continue with the user experience.
 <img src="https://github.com/alexiachm/Algorithms-project/blob/main/HomeScreen.png" alt="HomeScreen" title= "HomeScreen">
 
 
-User Interface:(Explanation)
+User Interface: When clicked, the application will give us the option of Log in, Sign in or Exit the app.
 <img src="https://github.com/alexiachm/Algorithms-project/blob/main/User%20Interface.png" alt="UserInterface" title= "UserInterface">
 
 
-Log In and Sign Up: (Explanation)
+Log In and Sign Up: If we click the Log in in button, the app will ask us to enter our username and a password since we already have an account. Then we will be able to click the Log in button and actually Log in into our app or click the Back button which will redirect us to the previous page. If we click the Sign in button, we will be able to enter a username and a password to create an account. Then we will be able to click the Sign in button and create our account or click the Back button which will redirect us to the previous page.
+
 <img src="https://github.com/alexiachm/Algorithms-project/blob/main/Log%20in%20Page.png" alt="LogIn" title= "LogIn">
 <img src="https://github.com/alexiachm/Algorithms-project/blob/main/Sign%20in%20Page.png" alt="SignUp" title= "SignUp">
 
