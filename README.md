@@ -4,8 +4,8 @@ Algorithms project for start up app
 ## Description:
 Startup Tracker is a user-friendly app designed to help small startups and businesses effectively track their inventory levels, profits, and revenues. It's tailored for businesses that are just starting and don't have the resources for complex inventory management systems. Startup tracker is meant to allow small businesses to manage their  inventory and gain insights into financial performance, making it simpler to run businesses efficiently.
 
-## Balsamiq app 
-A balsamiq app that uses templates and reads data to create our interface for our app algorithms. 
+## Balsamiq App 
+We used balsamiq app which uses templates and reads data to create our interface for our app algorithms. 
 </table>
   </tr>
     </td>
@@ -41,7 +41,28 @@ A balsamiq app that uses templates and reads data to create our interface for ou
 # Introduction 
 This application was created for our Algorithms & Data Structures class. The project instructions were to create an app using what we learned in class. 
 
-We came up with StartupPal, an app that helps people with start-up businesses, to organize their inventories, and track their revenue and expenses efficiently. We mainly use AVL trees as our chosen binary search tree, as it balances itself. Since it is a binary search tree, we are able to filter the data computed, and use a divide and conquer approach to obtain the data the user requires. We also use hash tables. So far, the algorithm uses `Inventory`, `Accumulated Cost`,`Accumulated Revenue`, `Product`, and `Timestamp` as attributes to organize the start-up business effectively. 
+We came up with StartupPal, an app for small businesses who struggle with keeping track of managerial operations of their startups such as: keeping inventory, tracking revenues and expenses and, therefore might feel that they are not able to have their business under control and feel that these type of tasks are too time consuming, shifting their focus away from other activities that might be more beneficial for their company.
+
+In our app entrepreneurs are able to upload a dataset with information such as inventory levels, revenues, or expenses in order for them to easily see their exact inventory number, savings and expenses without having to calculate it themselves every time they want to visualize it. Additionally, it gives the user the opportunity to see these data in an organized way, like graphs and tables, in this way users will also be able to see how their business is going, and what modifications they can incorporate to it, in a much more simplified way because, as we all know, graphs, just like pictures, are worth more than a thousand words.
+
+## Datstructures 
+We used binary search trees to store the data provided by the user, more concretely AVL trees, which are a special type of binary search tree which balance themselves when inserting or deleting each node. We will create a product tree for each product in the dataset and fill the nodes with time observations. Each node, representing each time observation of a product, will be stored in order in the BST  based on the timestamp and will store the product revenue, inventory and costs at that specific time.  This implementation is very good because when a BST tree is balanced, they have a predictable running time for every kind of operation, and they are going to perform all these operations quite fast, in O(log n) time which is the number of levels in the bst when it is balanced. (this is ensured thanks to AVL)
+
+In our program we want to display the user options for each product, telling them which time interval they can choose from for data on that specific product selected. For this we will use operations of getting max and getting the min of each product tree (based on timestamp) to display the available intervals to the user for him tp select. Balanced AVL trees are really efficient at searching max/ min with an operation of log(n). Moreover we will also use an inorder traversal algorithm (which will traverse the product tree in order based on the timestamp) and will append the timestamps that fall within the range specified by the user in order (because it traverses the tree in order).  This will return the data that the user wants to visualise (tables/ plot) by when visiting each node seeing if it is inside the interval designed by the user and if it is appending it to a list. 
+Finally we also use a hash table in order to allow the user to log in and save their access credentials in a csv file so they are saved in the computer after the user quits the program.
+
+# The Dataset
+The program allows the user to choose a dataset from their files. To try out the program the zip file also comes with a default dataset 'startups.xlsx'
+This dataset was manually constructed by our group, taking into account the workings of a start-up and it provides information about 4 products from a start-up with 208 accumulated different time stamps. Its content is relevant for anyone interested in tracking and organizing their products depending on their time stamps, and understand their current and past savings, expenses, incomes, and inventories. The following variables are presented:
+
+- Product: including product A, B, C & D, with their respective different time stamps.
+- Timestamp: there are 208 timestamps, each with their corresponding date and time.
+- Inventory: there are different amounts of stock of the four product types, depending on the time stamp given.
+- Accumulated Revenue: there are different amounts of revenue of the four product types, depending on the specific time stamp.
+- Accumulated Cost: there are different amounts of costs of the four product types, depending on the given time stamp.
+
+Our current Limitation is that in order to be effectively read by our program, datasets selected by the user from their files should have the same format as our default dataset.
+
 
 ## User journey 
 The app is first accessed by a login in or sign up page for the user to save their data accordingly. After, a dashboard is displayed with a main statistics page of inventory levels, overall revenue and inventory. The dashboard displays whether the data is increasing or decreasing (an overview of all the data). From this dashboard, there are three tabs that can be accessed: Inventory, Revenues, and Expenses. 
@@ -76,26 +97,16 @@ To track expenses, the system displays the main site and allows the user to sele
 
 ## Limitations
 The algorithm is currently limited to start-up business, as if a business were to grow exponentially into a mass corporation, our current system might not hold all data structures appropriately. 
-Our main limitation is that our app works specifically with our dataset only, if a startup would want to include their own dataset it would not be possible. 
+Our main limitation is that our app works specifically with our dataset only, if a startup would want to include their own dataset it would not be possible. To improve this we could work on an algorithm which is able to udnerstand the user's data regardless of its format. However this is not in the scope of our project. 
 
 ## File Architecture
 - `startups.py` - The main balsamiq app file that includes
 - `templates`- the app contains templates to create the interfaces of the app
 - any other files are self-explanatory.
 
-# The Dataset
-The dataset provides information about 4 products from a start-up with 208 accumulated different time stamps. Its content is relevant for anyone interested in tracking and organizing their products depending on their time stamps, and understand their current and past savings, expenses, incomes, and inventories. The following variables are presented:
-
-- Product: including product A, B, C & D, with their respective different time stamps.
-- Timestamp: there are 208 timestamps, each with their corresponding date and time.
-- Inventory: there are different amounts of stock of the four product types, depending on the time stamp given.
-- Accumulated Revenue: there are different amounts of revenue of the four product types, depending on the specific time stamp.
-- Accumulated Cost: there are different amounts of costs of the four product types, depending on the given time stamp.
-
-This dataset was manually constructed by our group, taking into account the workings of a start-up. 
 
 # Installation & Usage 
-#first-time install 
+### First-time install 
 
 clone the files:
 `````
