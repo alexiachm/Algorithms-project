@@ -68,7 +68,7 @@ Our current Limitation is that in order to be effectively read by our program, d
 The app is first accessed by a login in or sign up page for the user to save their data accordingly. After, a dashboard is displayed with a main statistics page of inventory levels, overall revenue and inventory. The dashboard displays whether the data is increasing or decreasing (an overview of all the data). From this dashboard, there are three tabs that can be accessed: Inventory, Revenues, and Expenses. 
 
 Home Screen: When entering the app, we can see the name of our application and a big START button that we will need to click in order to continue with the user experience.
-<img src="https://github.com/alexiachm/Algorithms-project/blob/main/MockHomeScreen" alt="HomeScreen" title= "HomeScreen">
+<img src="https://github.com/alexiachm/Algorithms-project/blob/main/HomeScreen.png" alt="HomeScreen" title= "HomeScreen">
 
 
 User Interface: When clicked, the application will give us the option of Log in, Sign in or Exit the app.
