@@ -4,7 +4,7 @@ Algorithms project for start up app
 ## Description:
 Startup Tracker is a user-friendly app designed to help small startups and businesses effectively track their inventory levels, profits, and revenues. It's tailored for businesses that are just starting and don't have the resources for complex inventory management systems. Startup tracker is meant to allow small businesses to manage their  inventory and gain insights into financial performance, making it simpler to run businesses efficiently.
 
-##balsamiq app 
+## Balsamiq app 
 A balsamiq app that uses templates and reads data to create our interface for our app algorithms. 
 </table>
   </tr>
@@ -74,16 +74,16 @@ To track expenses, the system displays the main site and allows the user to sele
       </td>
        </td>
 
-###Limitations
+## Limitations
 The algorithm is currently limited to start-up business, as if a business were to grow exponentially into a mass corporation, our current system might not hold all data structures appropriately. 
 Our main limitation is that our app works specifically with our dataset only, if a startup would want to include their own dataset it would not be possible. 
 
-##File Architecture
+## File Architecture
 - `startups.py` - The main balsamiq app file that includes
 - `templates`- the app contains templates to create the interfaces of the app
 - any other files are self-explanatory.
 
-#The Dataset
+# The Dataset
 The dataset provides information about 4 products from a start-up with 208 accumulated different time stamps. Its content is relevant for anyone interested in tracking and organizing their products depending on their time stamps, and understand their current and past savings, expenses, incomes, and inventories. The following variables are presented:
 
 - Product: including product A, B, C & D, with their respective different time stamps.
@@ -127,7 +127,7 @@ In case the pip install doesn't work, please install the libraries manually with
 tkinter and csv are libraries included in Python.
 
 
-libraries:
+## Libraries:
 `````
 from graphics import *
 import pandas as pd
