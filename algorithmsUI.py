@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from tkinter import Tk, filedialog
 from matplotlib.table import Table
 import csv
-
+import openpyxl
 #### Read data and start Button ####
 
 def read_data(filename):
