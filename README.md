@@ -60,17 +60,17 @@ Log In and Sign Up: If we click the Log in in button, the app will ask us to ent
 <img src="https://github.com/alexiachm/Algorithms-project/blob/main/Sign%20in%20Page.png" alt="SignUp" title= "SignUp">
 
 Main Menu: There is a main menu where the user has to choose between inventory, revenue or expenses.
-<img src="https://github.com/alexiachm/Algorithms-project/blob/main/Main%20Menu.png" alt="SignUp" title= "SignUp">
+<img src="https://github.com/alexiachm/Algorithms-project/blob/main/Main%20Menu.png" alt="MainMenu" title= "MainMenu">
 
 
 To track inventories, the system displays the main site of an activated account where the menu is initially displayed. The system then allows to select the Inventory tab, and shows an initial graph with the total inventories of all products distinguishing between those bought this month and those bought previously. After this, if you double tap on the graph it can change to a table format which displays the different amounts of each product, for the user to visually understand it in a different manner. Also, the system is able to filter by allowing the user to select a specific product or group of products and specific time frames. the system will again display the inventory graph with the corresponding filtered inventories. If the user double taps it changes again to the table format. In addition, the inventories page, displays the savings of the start-up, by allowing the user to save the graphs they have created to a given format. 
-  <img src= "https://github.com/alexiachm/Algorithms-project/blob/main/2174022b-7f21-49da-b26a-865c0e618425.jpg" alt="Sign in home screen" title= "Sign in home screen">
+  <img src= "https://github.com/alexiachm/Algorithms-project/blob/main/Inventory.png" alt="Iventory" title= "Inventory">
 
 As previously mentioned for inventories, the app tracks revenues and expenses similarly. For revenues, the system displays the main site of an activated account where the menu is initially displayed and the system the nallows to select the revenue tab. The system shows a graph with the total revenues, and can also change to table format to show the different amounts of each product. The system also filters and shows savings as previously mentioned. 
-   <img src="https://github.com/alexiachm/Algorithms-project/blob/main/2e87ee98-1011-44dd-9bab-a33cfdcc6024.jpg" alt="Inventory" title= "Inventory">  
+   <img src="https://github.com/alexiachm/Algorithms-project/blob/main/Revenue.png" alt="Revenue" title= "Revenue">  
 
 To track expenses, the system displays the main site and allows the user to select the expenses tab, where the system displays an initial graph with the total expenses of all products distinguishing between those bough this month and those bough previously. It does the same as with the other two previous tabs for filtering and savings.
-<img src="https://github.com/alexiachm/Algorithms-project/blob/main/35f6394f-7ac0-42be-8860-1564bb33a8d6.jpg" alt="Expenses" title= "Expenses">
+<img src="https://github.com/alexiachm/Algorithms-project/blob/main/Expenses.png" alt="Expenses" title= "Expenses">
       </td>
        </td>
 
