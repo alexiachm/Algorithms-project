@@ -12,13 +12,13 @@ We used balsamiq app which uses templates and reads data to create our interface
       <img src= "https://github.com/alexiachm/Algorithms-project/blob/main/MockHomeScreen" alt="Sign in home screen" title= "Sign in home screen">
      </td>
      </td>
-       <img src="https://github.com/alexiachm/Algorithms-project/blob/main/2e87ee98-1011-44dd-9bab-a33cfdcc6024.jpg" alt="Inventory" title= "Inventory">
+       <img src="https://github.com/alexiachm/Algorithms-project/blob/main/mockInventory" alt="Inventory" title= "Inventory">
      </td>
      </td>
-       <img src="https://github.com/alexiachm/Algorithms-project/blob/main/35f6394f-7ac0-42be-8860-1564bb33a8d6.jpg" alt="Expenses" title= "Expenses">
+       <img src="https://github.com/alexiachm/Algorithms-project/blob/main/MockExpenses" alt="Expenses" title= "Expenses">
       </td>
        </td>
-        <img src="https://github.com/alexiachm/Algorithms-project/blob/main/WhatsApp%20Image%202023-11-24%20at%2016.41.54.jpeg" alt="Revenue" title= "Revenue">
+        <img src="https://github.com/alexiachm/Algorithms-project/blob/main/MockRevenue" alt="Revenue" title= "Revenue">
       </td>
     </tr>
 
