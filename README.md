@@ -100,9 +100,10 @@ The algorithm is currently limited to start-up business, as if a business were t
 Our main limitation is that our app works specifically with our dataset only, if a startup would want to include their own dataset it would not be possible. To improve this we could work on an algorithm which is able to udnerstand the user's data regardless of its format. However this is not in the scope of our project. 
 
 ## File Architecture
-- `startups.py` - The main balsamiq app file that includes
-- `templates`- the app contains templates to create the interfaces of the app
-- any other files are self-explanatory.
+- `algorithmsUI.py` - The python file where the user can find the code for the app.
+- `MockHomeScreen`,`mockInvenotry`,`MockExpenses`,`MockRevenue`- The mock files where the user can find the pictures at the begining of the gitHub. They are the  main balsamiq app file that includes this GitHub. 
+- `Choose Dataset.png`,`Expenses.png`,`HomeScreen.png`,`Inventory.png`,`Log in Page.png`,`Main Menu.png`,`Revenue.png`,`Sign in Page.png`,`User Interface.png`- The files where the user can find the pictures of the running code, if the user downloads the python file and runs it, they are going to see this files.  
+- `startups.xlsx`- The file where the user can find the dataset used for the python code. It is an example of an excel. If the user has another excel with the same structures as in the given excel in the Github, it will work for this code.
 
 
 # Installation & Usage 
