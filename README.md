@@ -102,7 +102,7 @@ Our main limitation is that our app works specifically with our dataset only, if
 
 ## File Architecture
 - `algorithmsUI.py` - The python file where the user can find the code for the app.
-- `MockHomeScreen`,`mockInvenotry`,`MockExpenses`,`MockRevenue`,`AddDataset.jpeg`- The mock files where the user can find the pictures at the begining of the gitHub. They are the  main balsamiq app file that includes this GitHub. 
+- `MockHomeScreen`,`mockInvenotry`,`MockExpenses`,`MockRevenue`,`ImportDataset.jpeg`- The mock files where the user can find the pictures at the begining of the gitHub. They are the  main balsamiq app file that includes this GitHub. 
 - `Choose Dataset.png`,`Expenses.png`,`HomeScreen.png`,`Inventory.png`,`Log in Page.png`,`Main Menu.png`,`Revenue.png`,`Sign in Page.png`,`User Interface.png`- The files where the user can find the pictures of the running code, if the user downloads the python file and runs it, they are going to see this files.  
 - `startups.xlsx`- The file where the user can find the dataset used for the python code. It is an example of an excel. If the user has another excel with the same structures as in the given excel in the Github, it will work for this code.
 
